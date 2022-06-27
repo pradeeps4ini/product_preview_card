@@ -27,8 +27,8 @@ html {
 body {
   place-items: center;
   inline-size: 100vw;
-  block-size: 100vh;
   background-color: var(--clr-primary1);
+  padding-block: 10rem;
 }
 
 /* utility classes */
@@ -51,6 +51,7 @@ img {
 main {
   grid-template: "view-img" 39.15% "product-info" 60.85% / 1fr;
   inline-size: 305px;
+  margin-bottom: 5rem;
   border-radius: 10px;
   overflow: hidden;
 }
